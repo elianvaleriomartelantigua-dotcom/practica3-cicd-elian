@@ -1,9 +1,0 @@
-PRÁCTICA 3 - CI/CD
-
-Abre docs/PASO_A_PASO.md: contiene los comandos para instalar, probar, subir a GitHub, activar Pages y demostrar rojo/verde.
-
-Se incluyen el proyecto completo de la plantilla oficial con mejoras, workflow, pruebas, Dockerfile, README, guía de contribución, informe Markdown y guion para grabar el video requerido.
-
-El repositorio debe ser público. Debes crear/subir el repositorio, activar Pages y grabar la demostración en tu cuenta. No se incluyen evidencias remotas inventadas. Completa los campos PENDIENTE del informe después de hacerlo.
-
-No necesitas Azure. Docker Desktop es opcional en tu PC. Necesitas Node.js y Git.
