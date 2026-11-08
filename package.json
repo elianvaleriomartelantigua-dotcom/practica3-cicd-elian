@@ -1,0 +1,41 @@
+{
+  "name": "practica3-cicd-elian",
+  "version": "1.0.0",
+  "description": "Plantilla base para la Pr\u00e1ctica 3 y el Proyecto Final de Electiva 1: Introducci\u00f3n a DevOps (ITLA)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --coverage --runInBand",
+    "lint": "node --check src/app.js && node --check src/server.js && node --check src/validarTitulo.js && node --check public/app.js"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/app.js",
+      "src/validarTitulo.js"
+    ],
+    "coverageReporters": [
+      "text",
+      "lcov",
+      "json-summary"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "statements": 85,
+        "branches": 80,
+        "functions": 85,
+        "lines": 85
+      }
+    }
+  }
+}
